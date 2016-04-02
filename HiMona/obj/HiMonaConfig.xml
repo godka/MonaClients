@@ -16,7 +16,7 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'10/11/2015'</value>
+      <value>'2016/4/1 星期五'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -33,12 +33,12 @@
     <accessible>true</accessible>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>C:\Travail\MonaWorkspace\MonaClients\HiMona\src</path-element>
-      <path-element>C:\Program Files (x86)\FlashDevelop-5.0.2\Library\AS3\classes</path-element>
+      <path-element>D:\docs\MonaClients\HiMona\src</path-element>
+      <path-element>E:\flashdev\Library\AS3\classes</path-element>
     </source-path>
   </compiler>
   <file-specs>
-    <path-element>C:\Travail\MonaWorkspace\MonaClients\HiMona\src\HiMona.mxml</path-element>
+    <path-element>D:\docs\MonaClients\HiMona\src\HiMona.mxml</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>

@@ -35,6 +35,7 @@
 				
 				// Generate dynamic url
 				var url:String = loaderInfo.url;
+				//Alert.show(url);
 				var domainNPath:Array = url.match(/(:\/\/.+)\//);
 				if (URLUtil.getProtocol(url) == "file") {
 					Alert.show("Error : MonaVideo can't be loaded locally!");
@@ -45,7 +46,9 @@
 				
 				// Connect to Mona
 				_url = "rtmfp" + domainNPath[1];
+				//Alert.show(_url);
 				_httpUrl = "http" + domainNPath[1];
+				//Alert.show(_httpUrl);
 				_connection = new NetConnection();
 				_connection.addEventListener(NetStatusEvent.NET_STATUS, onStatus);
 				_connection.addEventListener(AsyncErrorEvent.ASYNC_ERROR, onStatus);
@@ -113,7 +116,7 @@
 				PopUpManager.removePopUp(_loginWindow);
 				
 				_cam = Camera.getCamera();
-				_cam.setMode(640, 480, 15);
+				_cam.setMode(1280, 720, 30);
 				localVideoDisplay.attachCamera(_cam);
 				localVideoDisplay.addEventListener(MouseEvent.MOUSE_DOWN, function(event:MouseEvent):void {
 					localVideoDisplay.startDrag(); // on click the camera can is dragable

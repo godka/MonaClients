@@ -42,7 +42,7 @@
     <option linkReport="" />
     <option loadExterns="" />
     <option staticLinkRSL="True" />
-    <option additional="-locale en_US&#xA;-theme+=C:\PROGRA~2\FLASHD~1.2\Apps\FLEXAI~1\460_19~1.0\FRAMEW~1\themes\Halo\halo.swc" />
+    <option additional="-locale en_US&#xA;-theme+=halo.swc" />
     <option compilerConstants="" />
     <option minorVersion="" />
   </build>
